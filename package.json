@@ -1,0 +1,24 @@
+{
+  "name": "Solarized Logseq",
+  "author": "nmartin84",
+  "version": "0.0.1",
+  "description": "Solarized light and darkness 🔆 / ☕️",
+  "logseq": {
+    "themes": [
+      {
+        "name": "solarized-light",
+        "url": "./solarized-light.css",
+        "description": "Such a beautiful lighten theme 🔆",
+        "mode": "light"
+      },
+      {
+        "name": "solarized-dark",
+        "url": "./solarized-dark.css",
+        "description": "Such a beautiful darken theme ☕️",
+        "mode": "dark"
+      }
+    ],
+    "id": "_cp21purig",
+    "icon": "./icon.png"
+  }
+}
