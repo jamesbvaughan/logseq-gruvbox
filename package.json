@@ -2,22 +2,16 @@
   "name": "Solarized Logseq",
   "author": "nmartin84",
   "version": "0.0.1",
-  "description": "Solarized light and darkness",
+  "description": "Solarized light and darkness 🔆 / ☕️",
   "logseq": {
     "themes": [
       {
-        "name": "solarized-light",
-        "url": "./solarized-light.css",
-        "description": "Warm touch of lightness 🌄",
+        "name": "solarized",
+        "url": "./solarized.css",
+        "description": "Such a beautiful lighten theme 🔆",
         "mode": "light"
-      },
-      {
-        "name": "solarized-dark",
-        "url": "./solarized-dark.css",
-        "description": "Darkness overcomes 😈",
-        "mode": "dark"
       }
     ],
-    "id": "nm-solight"
+    "id": "sol-theme01"
   }
 }
