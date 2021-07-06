@@ -157,16 +157,17 @@ mark {
 
 /* Headlines */
 
-.ls-block .block-ref :is(h1, h2, h3, h4, h5) {
+.ls-block .block-ref :is(h1, h2, h3, h4, h5, h6) {
   font-size: 1em;
   margin: 0;
 }
 
-.ls-block :is(h1, h2, h3, h4, h5) {
+.ls-block :is(h1, h2, h3, h4, h5, h6) {
   font-weight: 700;
+  color: var(--ls-header-color);
 }
 
-.ls-block :is(h1, h2, h3, h4, h5)::after {
+.ls-block :is(h1, h2, h3, h4, h5, h6)::after {
   margin-left: 0.5rem;
   font-size: 0.7rem;
   font-style: bold;
@@ -176,7 +177,7 @@ mark {
   opacity: 0.3;
 }
 
-.ls-block :is(h1, h2, h3, h4, h5):hover::after {
+.ls-block :is(h1, h2, h3, h4, h5, h6):hover::after {
   opacity: 0.7;
 }
 
@@ -198,6 +199,10 @@ mark {
 
 .ls-block h5::after {
   content: "H5";
+}
+
+.ls-block h6::after {
+  content: "H6";
 }
 
 .ls-block :is(h3, h4, h5) {
@@ -225,7 +230,10 @@ mark {
 /* === Task Items === */
 .doing .form-checkbox,
 .doing .form-checkbox:focus {
-  background-color: var(--ls-primary-text-bold-color) !important;
+  border: 2.5px solid var(--ls-primary-text-bold-color);
+  padding-right: 2px;
+  border-radius: 2px;
+  background: none;
 }
 
 .doing .marker-switch {
