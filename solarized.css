@@ -180,9 +180,12 @@ th {
 
 .ls-block :is(h1, h2, h3, h4, h5, h6)::after {
   margin-left: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-style: bold;
-  padding: var(--ct-inline-code-padding) !important;
+  padding: 1px 1px 1px 1px;
+  border: 2px solid var(--ls-tertiary-background-color);
+  border-radius: 2px;
+  background: var(--ls-tertiary-background-color);
   color: var(--ls-headline-mark-color);
   vertical-align: middle;
   opacity: 0.3;
