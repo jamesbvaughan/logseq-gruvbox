@@ -169,8 +169,8 @@ th {
 /* Headlines */
 
 .ls-block .block-ref :is(h1, h2, h3, h4, h5, h6) {
-  font-size: 1em;
   margin: 0;
+  border-bottom: 0px solid red;
 }
 
 .ls-block :is(h1, h2, h3, h4, h5, h6) {
