@@ -13,7 +13,7 @@
   --ls-page-properties-background-color: #e3ddca;
   --ls-a-chosen-bg: #eee8d5;
   --ls-code-mirror-bg: #FEF9EB;
-  --ls-outline-color: #002b36;
+  --ls-outline-color: #07364224;
   --ls-block-properties-background-color: #e3ddca;
   --ls-mark-bg: #073642;
   --ls-mark-color: var(--ls-primary-background-color);
@@ -22,13 +22,16 @@
   --ls-select-bg: #657b83;
   --ls-quaternary-background-color: #ccc6b4;
   --ls-headline-mark-color: var(--ls-primary-text-bold-color);
+  --ls-active-block-background: #cac4b55e;
 }
 
 .dark-theme, html[data-theme=dark] {
   --ls-block-ref-link-text-color: #e8d8d8;
   --ls-primary-background-color: #002b36;
   --ls-link-text-color: #2aa198;
-  --ls-link-ref-text-color: #859900;
+  --ls-link-ref-text-color: #268bd2;
+  --ls-link-text-hover-color: #d33682;
+  --ls-link-ref-text-hover-color: #d33682;  
   --ls-page-inline-code-bg-color: #073642;
   --ls-secondary-background-color: #073642;
   --ls-page-checkbox-color: #2aa198;
@@ -37,19 +40,18 @@
   --ls-page-properties-background-color: #073642;
   --ls-a-chosen-bg: #073642;
   --ls-code-mirror-bg: #073642;
-  --ls-outline-color: #002b36;
+  --ls-outline-color: #fdf6e333;
   --ls-block-properties-background-color: #073642;
   --ls-mark-bg: #eee8d5;
   --ls-mark-color: var(--ls-primary-background-color);
   --ls-page-blockquote-bg-color: #073642;
   --ls-page-blockquote-border-color: #2aa198;
-  --ls-link-text-hover-color: #d33682;
-  --ls-link-ref-text-hover-color: #d33682;  
   --ls-header-color: #d33682;
   --ls-select-color: #fdf6e3;
   --ls-select-bg: #586e75;
   --ls-block-ref-link-text-color: #073642;
   --ls-headline-mark-color: var(--ls-header-color);
+  --ls-active-block-background: #08445496;
 }
 
 /* MAIN */
@@ -78,7 +80,7 @@ b {
 
 li {
   list-style: square;
-  color:#859900;
+  color: #cb4b16;
 }
 
 ::selection {
@@ -133,7 +135,7 @@ th {
 }
 
 .block-children {
-  border-left: 1.5px solid var(--ls-tertiary-background-color);
+  border-left: 2px solid var(--ls-outline-color);
 }
 
 .block-children:focus-within {
@@ -169,13 +171,17 @@ th {
 /* Headlines */
 
 .ls-block .block-ref :is(h1, h2, h3, h4, h5, h6) {
-  margin: 0;
   border-bottom: 0px solid red;
+  margin: 0;
 }
 
 .ls-block :is(h1, h2, h3, h4, h5, h6) {
   font-weight: 700;
   color: var(--ls-header-color);
+}
+
+h1.title {
+  padding-left: 26px;
 }
 
 .ls-block :is(h1, h2, h3, h4, h5, h6)::after {
@@ -281,8 +287,8 @@ blockquote:after{
   max-width: 100%;
 }
 
-h1.title {
-  padding-left: 26px;
+.color-level .color-level {
+  background-color: var(--ls-active-block-background);
 }
 
 mark {
@@ -320,10 +326,8 @@ a.external-link:hover:after {
 }
 
 .page-reference {
-    border-radius: 3px;
-    padding: 2px 0px;
-    transition: .3s;
-    font-weight: 400;
+  padding: 2px 0px;
+  font-weight: 600;
 }
 
 .page-reference:hover {
@@ -331,7 +335,7 @@ a.external-link:hover:after {
 }
 
 .page-ref:hover {
-  color: var(--ls-primary-text-bold-color);
+  color: var(--ls-link-ref-text-hover-color);
 }
 
 /* checkbox */
