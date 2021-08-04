@@ -58,8 +58,6 @@
 
 :root {
   --ls-main-content-max-width: 1000px;
-  --ct-font-family: "SF Pro Text", "Noto Sans SC", sans-serif;
-/*  --ls-font-family: 'SF Mono', 'Roboto';*/
 }
 
 #journals .journal-item {
