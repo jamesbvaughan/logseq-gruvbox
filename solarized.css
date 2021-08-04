@@ -88,7 +88,6 @@ li {
 
 :not(pre)>code {
   color: var(--ls-inline-code-primary-color);
-  font-family: "SF Mono";
   background: var(--ls-page-inline-code-bg-color);
 }
 
