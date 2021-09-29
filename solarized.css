@@ -308,7 +308,7 @@ html[data-theme=light] {
     --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
     --ls-right-sidebar-code-bg-color: var(--cd-secondary-bg-color);
     --ls-search-background-color: var(--cd-highlight-bg-color);
-    );
+
     /* == Text == */
     --ls-primary-text-color: var(--cd-primary-text-color);
     --ls-secondary-text-color: var(--cd-alternate-text-color);
