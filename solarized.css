@@ -33,7 +33,7 @@ html[data-theme=dark] {
     --ts-property-key-weight: 400;
     --ts-property-key-color: var(--cd-primary-text-color);
     --ts-property-border: 0px;
-    --ts-property-border-radius: 0px;
+    --ts-property-border-radius: 2px;
     --ts-property-key-transform: lowercase;
     --ts-property-key-color: var(--cd-primary-text-color);
     --ts-property-value-color: var(--cd-primary-text-color);
@@ -152,7 +152,7 @@ html[data-theme=light] {
     --ts-property-key-weight: 400;
     --ts-property-key-color: var(--cd-primary-text-color);
     --ts-property-border: 0px;
-    --ts-property-border-radius: 0px;
+    --ts-property-border-radius: 2px;
     --ts-property-key-transform: lowercase;
     --ts-property-key-color: var(--cd-primary-text-color);
     --ts-property-value-color: var(--cd-primary-text-color);
@@ -480,6 +480,13 @@ a:hover>.bullet-container {
 .block-properties {
     border: var(--ts-property-border);
     border-radius: var(--ts-property-border-radius);
+    display: table;
+    font-size: 85%;
+    margin: 2px 0px;
+    padding: 2px 8px;
+    background-color: var(--cd-alternate-bg-color);
+    text-transform: lowercase;
+    font-family: var(--ts-monospace-font);
 }
 
 /* == FIXES == */
@@ -689,26 +696,6 @@ a.tag:hover {
 }
 
 /* === PAGE PROPERTIES === */
-
-.page-property-key.font-medium {
-    text-transform: var(--ts-property-key-transform);
-    color: var(--ts-property-key-color);
-    font-weight: var(--ts-property-key-weight);
-    font-size: 85%;
-}
-
-.mr-1 {
-    color: var(--ts-property-key-color);
-    font-weight: var(--ts-property-key-weight);
-    font-size: 85%;
-}
-
-.inline.mr-1 {
-    color: var(--ts-property-value-color);
-    font-weight: var(--ts-property-value-weight);
-    text-transform: var(--ts-property-value-transform);
-    font-size: 85%;
-}
 
 /* BLOCK REFERENCES */
 
