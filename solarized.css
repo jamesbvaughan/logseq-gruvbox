@@ -449,7 +449,7 @@ html[data-theme=light] {
 }
 
 a:hover>.bullet-container {
-    background-color: none
+    background-color: transparent;
 }
 
 @keyframes pulse {
