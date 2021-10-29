@@ -1,5 +1,6 @@
-# logseq-solarized-light
-A solarized light theme for LOGSEQ
+# Solarized Light + Dark
+
+A theme for logseq that spices up the original theme to give some more color.
 
 Quickest way to get started is by importing my CSS theme into your `custom.css` file, or download this repository and add the folder as a plugin.
 ``` css
