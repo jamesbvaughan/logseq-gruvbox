@@ -114,7 +114,7 @@ html[data-theme='light'] {
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #556B72;
   --ls-secondary-text-color: #556B72;
-  --ls-title-text-color: var(--cd-blue-2);
+  --ls-title-text-color: var(--cd-blue-1);
   --ls-link-text-color: var(--cd-blue-1);
   --ls-link-text-hover-color: var(--cd-blue-1);
   --ls-link-ref-text-color: var(--cd-blue-2);
