@@ -6,7 +6,7 @@
   "logseq": {
     "themes": [
       {
-        "name": "Nord",
+        "name": "Solarized",
         "url": "./solarized.css",
         "description": "Solarized Theme",
         "mode": "light"
