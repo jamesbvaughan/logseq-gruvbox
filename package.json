@@ -1,17 +1,17 @@
 {
-  "name": "Solarized Logseq",
+  "name": "Solarized 🌞",
   "author": "nmartin84",
-  "version": "0.0.3",
-  "description": "Solarized light and darkness 🔆 / ☕️",
+  "version": "0.1.0",
+  "description": "Solarized theme",
   "logseq": {
     "themes": [
       {
-        "name": "solarized",
+        "name": "Nord",
         "url": "./solarized.css",
-        "description": "Such a beautiful lighten theme 🔆",
+        "description": "Solarized Theme",
         "mode": "light"
       }
     ],
-    "id": "sol-theme01"
+    "id": "solarized-theme"
   }
 }

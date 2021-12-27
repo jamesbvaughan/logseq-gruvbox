@@ -1,11 +1,23 @@
-# Solarized Light + Dark
+# Logseq Nord
 
-A theme for logseq that spices up the original theme to give some more color.
+- **Contributors:** Nick Martin (nmartin84)
+- **Requires at least:** Logseq 0.5.5
+- **Tested up to:** Logseq 0.5.5
 
-Quickest way to get started is by importing my CSS theme into your `custom.css` file, or download this repository and add the folder as a plugin.
-``` css
-@import url("https://cdn.jsdelivr.net/gh/nmartin84/logseq-solarized/solarized.css");
-```
+## Description
 
-![](./screenshots/logseq-solarized-01.png)
-![](./screenshots/logseq-solarized-02.png)
+NORD Theme for Logseq. 
+
+Dark:
+![dark](dark-nord.png)
+
+Light:
+![light](light-nord.png)
+
+## Frequently Asked Questions
+
+### How do I install the theme?
+- Theme is available (pending PR) on the Logseq Market place!
+  - Open Logseq, click on the 3 dots (...) top right corner, choose plugins, marketplace, themes.
+  - Click install on the Logseq Nord theme.
+  - Cheers. 🍻
