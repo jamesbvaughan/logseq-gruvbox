@@ -34,7 +34,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--bg-color);
   --ls-border-color: var(--cd-blue-2);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-green-1);
+  --ls-guideline-color: var(--bg-lg-3);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #839496;
   --ls-secondary-text-color: #839496;
@@ -110,7 +110,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--bg-color);
   --ls-border-color: var(--cd-blue-1);
   --ls-secondary-border-color: #126277;
-  --ls-guideline-color: var(--cd-green-1);
+  --ls-guideline-color: var(--bg-dk-3);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #556B72;
   --ls-secondary-text-color: #556B72;
