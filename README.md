@@ -1,3 +1,5 @@
+> !!! WIP: This is intended to eventually be a working Gruvbox theme for Logseq but it is not one yet. !!!
+
 # Logseq Solarized
 
 - **Contributors:** Nick Martin (nmartin84)
